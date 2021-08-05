@@ -30,5 +30,5 @@ jobs:
             -   run: composer require squizlabs/php_codesniffer
                 working-directory: ./tests
 
-            -   run: vendor/bin/phpunit AbstractCheckerTestCaseTest.php
+            -   run: vendor/bin/phpunit --bootstrap vendor/autoload.php AbstractCheckerTestCaseTest.php
                 working-directory: ./tests
