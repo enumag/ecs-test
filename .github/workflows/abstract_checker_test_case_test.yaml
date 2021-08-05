@@ -7,7 +7,7 @@ on:
             - main
 
 jobs:
-    fixer_test:
+    abstract_checker_test_case_test:
         runs-on: ubuntu-latest
 
         steps:
