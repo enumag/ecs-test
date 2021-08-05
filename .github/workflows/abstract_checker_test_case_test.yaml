@@ -27,5 +27,8 @@ jobs:
             -   run: composer require symplify/easy-testing
                 working-directory: ./tests
 
+            -   run: composer require friendsofphp/php-cs-fixer
+                working-directory: ./tests
+
             -   run: vendor/bin/phpunit AbstractCheckerTestCaseTest.php
                 working-directory: ./tests
